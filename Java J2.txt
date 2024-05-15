@@ -1,0 +1,70 @@
+Variables de classe - elles sont pas dependentes des 
+Variables d'instance 
+Instance
+
+Independantes d'une instance
+
+Lors de la compilation d'un fichier .java, un fichier .class est généré qui sera lu lors de l'execution du programme. 
+Ce fichier est une copie fidèle de notre fichier .java.
+Est-ce que ce le fait de créer un nouveau fichier .class pour chaque fichier .java ne consomme pas trop de ressources (memoire, temps de lancement, etc) ?  Reponse: non, il n'y a rien à voir entre les deux
+
+scanner.close();
+Q: Il sert à qoi ? 
+R: Il n'est pas obligatoire, moi personnellement je l'utilise jamais
+Réponse sur Google: C'est une bonne pratique de programmation de fermer explicitement le Scanner en utilisant la méthode Close () une fois que vous avez fini de l'utiliser. 
+
+Programmation fonctionnelle:
+Ne peut pas être effectuée à grand échelle, utilisée pour des besoins ponctuells , elle n'a pas une architecture 
+
+Programmation Orienté Objet:
+Un objet peut avoir des propriétés, des méthodes definissant l'état et le comportement
+
+Identité d'objet: 
+- décrit par son nom 
+- appellée aussi référence ou handler
+- réprésente son adresse mémoire
+- unique à l'objet
+
+Classe:
+- réunit plusieurs objet avec des caracteristiques commmunes
+- les generalites sont contenus dans des classes et les particularités par les objets 
+- les objets sont construits à partir de la classe qui le contient
+
+Un OBJET peut être crée à partit d'une INSTANCE d'une CLASSE ( du coup on appel le constructeur )
+
+Constructeur 
+- méthode utilisé pour l'instantiation des classes, il porte le nom de la classe 
+- ils peuvent en avoir plusieurs, avec le même nom, mais vus en memoire commme deux méthodes différentes ( quand on va l'appellé on va nous demander si lequel on veut choisir parmis les constructeurs disponibles de même nom)
+- le fait de definir plusieurs, on l'appelle la surcharge
+- une classe a un constructeur par défaut si on n'en crée pas un explicitement
+- mais, ue fois qu'on a crér un constructeur avec paramètres, le constructeur créé explicitement ne sera plus disponible (il faut le créer)
+
+Accessibilité d'une classe: private, protected (accessible à l'interieur de la classe, au classes dérivées et aux classes du même package), public
+Par défaut, l'accesibilité d'une classe est package.
+
+Un constructeur est une méthode spécifique utilisée dans la création d'un objet d'une classe.
+L'instance d'une classe est un objet avec un comportement et un état, définis par la classe ( un exemplaire de la classe ).
+
+La signaure d'une méthode: nom, type de retour, les paramètres
+
+JavaBean: classe avec des getters/setters
+POJO(Plain Old Java Object): Objet simple sans logique
+DTO: Objet de transfert des données entre processus
+VO(Values Object): Objets immuables ou classes qui ecapsules des valeurs simples ou autres VO. Utilisés quand on a besoin de modeliser un concept du domaine qui est définit par sa valeur et non pas son identité et qui a besoin d'immutabilité pour correctitude et cohérence.
+
+record - classe finale (immuable, elle ne peut pas être heritée)
+
+Encapsulation 
+- mecanisme de rassemblement des données et des méthodes au sein d'une structure en cachant l'implementation de l'objet ( empechant l'accès aux données par un autre moyen que les services proposés)
+- garantit l'intégrité des données, protège les informations contre les modifications innattendues
+
+Getters et Setters () - méthode d'accès aux attributes privés d'une classe 
+
+Membres statiques d'une classe - accessibles sans instancier la classe (ClasseName.element)
+Instance d'une classe : ClasseName classeName = new ClasseName()
+
+Garbage Collector 
+- déstruction des objet inutilisables 
+- éxecuté automatiquement quand la mémoire disponible est inférieure à un certain seuil
+
+

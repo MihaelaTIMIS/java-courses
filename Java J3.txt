@@ -1,0 +1,37 @@
+Classes abstraites
+- ne peut pas être instanciées
+- utilisée généralement pour en faire deriver des nouvelles classes par heritage
+- une méthode abstraite peut être déclarée dans une classe abstraite
+
+Interfaces
+- classe qui contient que des méthodes abstraites
+- même si elle est abstraite, pas besoin d'utiliser le tab 'abstract' car elle est abstraite pas réfinition
+- une classe java hérite d'une seule classe et elle peut heriter au même temps de plusieurs interfaces
+- une classe implémente une ou plusieurs intérfaces
+- une interfaces peut hériter de plusieurs interfaces
+
+
+Méthodes défault et private
+- défault: permet de rajouter une méthode qui ne sera pas oblogatoirement appelée 
+- private: rajouter une méthode accésibela uniquement dans la classe où  elle est définie
+
+
+Classes scellées(sealed classes)
+- permettent de controler quelles autres classes peuvent hériter d'elles
+- utilisées avec le nom "permits"
+
+Classes de type final 
+- elles ne peuvent pas être dérivées
+- on ne peut pas hériter d'une classe finale
+- elle peut hériter d'autres classes
+- décrit par le nom "final"
+- utilisée quand on veut pas intérvenir et la modifier 
+
+Variables finales
+- équivalentes aux "const" en JavaScript
+
+.classpath - equivalent du .env en JS
+
+Tableaux
+- equals() 
+- getClass()

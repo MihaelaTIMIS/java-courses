@@ -1,0 +1,45 @@
+POO et Programmation Procedurale
+
+En programmation procédurale, les données et les traitements des donnée sont séparés. 
+Le lien entre les deux se fait via les arguments.
+Pas de lien semantique entre les différents donnés ou entre les données et les traitements. 
+
+En POO, on peut regrouper en une seule entité les données et les traitements
+Cela va nous permetre de construire des programmes 
+- robustes (face aux changements, aux erreurs de manipulation), 
+- modulables, 
+- lisibles, 
+- maintainables.
+
+La POO se base sur 4 conepts centraux:
+
+- Encapsulation
+- Abstraction
+- Heritage
+- Polimorphisme
+
+Encapsulation - regrouper des objets dans une seule entité ( classe ):
+- les données ( attributs ) 
+- les traitements des données ( méthodes )
+
+Une classe définit un type ( je peux déclarer des variables de ce type )
+Une déclaration d'un type est une INSTANCE ( un objet ) 
+Un objet est manipulé au travers d'une variable.
+
+Abstraction - identifier pour un ensemble d'éléments :
+- des caracteristiques communes 
+- des mécanismes communs
+
+Cela permet au programme de se focaliser sur l'essentiel ( en cachent les détails d'implémentation ) : 
+	on voit que les intérfaces, via lesquel on peut accèder aux méthodes 
+
+Deux niveaux de perception des objets: 
+- niveau externe ( utilisée par le developpeur utilisateur ) 
+- niveau interne: les détails d'implementation de l'objet 
+ 	- méthodes et attributes accéssibles uniquement à l'interieur de l'objet
+	- méthodes rendu accésibles pour l'exterieur
+
+Pourquoi abstraire / encapsuler: 
+- meilleure visibilité, meilleure cohérence, plus grande modularité.
+- établir un cadre plus rigureux au programme, en séparant les niveaux intérne et externe, 
+- offrir une vision abstraite de l'objet depuis l'exterieur

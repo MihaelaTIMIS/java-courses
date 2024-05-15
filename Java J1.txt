@@ -1,0 +1,24 @@
+Java
+
+- Contrairement à d'autres langages, Java est un langage compilé et interprété
+- Développé en 1990  
+- Reprend la syntax du C++, C#
+- dernière version 22 ( Mars 2024),  dernière LTS 21
+- la version JEE permet le dev multiplatforme
+
+La qualité d'un logiciel:
+
+- répondre aux spécifications fonctionnelles
+- sécurité
+
+POur créer une app JAva, il nous faut un kit de developpement:
+- JDK Java Standard Developpement Kit ( pour dev desktop )
+- JME Java Mobile Edition ( pour dev mobile )
+- JEE Java Entreprise Edition ( pour executer l'app sur un serveur ) : pouvoir accèder à l'app depuis n'importe quel location
+- JCA Java Card Edition ( pour executer l'app dans les cartes à puces )
+
+Exemple des services Java
+
+- JDBC ( JAva DataBase Connectivity ) : Api d'accès au db
+- JNDI ( Java Naming and Directory Interface ) : Api d'accèes au services de nommage et annuaire de l'entreprise
+- JPA ( Java Persistance Api ) couche d'abstraction 
